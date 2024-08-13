@@ -1,0 +1,92 @@
+section{
+    background-color: #fff;
+    padding-left: 180px;
+}
+.topic{
+    color: #9a9a9a;
+    text-align: center;
+    margin-top: 80px;
+    margin-left: -210px;
+}
+h4{
+    color: #9a9a9a;
+    text-align: center;
+    margin-top: -10px;
+
+}
+h3{
+    color: #ffffff;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: -10px;
+    font-size: 40px;
+    margin-left: -200px;
+}
+.opinions{
+    display: flex;
+    /* display: grid;
+    grid-template-columns: repeat(2,1fr); */
+}
+.part{
+    background-color: rgb(38, 38, 38);
+    width: 550px;
+    height: 300px;
+    margin-right: 50px;
+
+}
+img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: solid 2px black;
+    position: absolute;
+    align-items: center;
+    top: -45px;
+    right: 43%;
+}
+.photo{
+    position: relative;
+}
+p{
+    color: #fff;
+    margin: 25px;
+    margin-top: 15px;
+    max-width: 500px;
+}
+.icon{
+    text-align: center;
+    width: 60px;
+    font-size: 33px;
+    height: 47px;
+    background-color: #fff;
+    border-radius: 50%;
+    color: red;
+    /* align-items: center; */
+    padding-top: 13px;
+    position: relative;
+    left: 420px;
+    border: solid 1px black
+}
+.qou{
+    position: absolute;
+    right: 25%;
+}
+.circle{
+    color: red;
+    /* display: inline-block; */
+    text-align: center;
+    position: relative;
+    left: -110px;
+    top: 70px;
+    font-size: 25px;
+}
+.stars{
+    color: gold;
+    margin-top: 75px;
+    /* text-align: center; */
+    /* align-items: center; */
+    margin-left: 215px
+}
