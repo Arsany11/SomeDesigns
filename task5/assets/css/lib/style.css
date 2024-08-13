@@ -1,0 +1,29 @@
+body{
+    background-image: url(/task5/assets/images/banner.jpg);
+    background-color: rgba(209, 205, 205, 0.4);
+}
+section{
+    background-color: rgba(0, 0, 0, 40%);
+}
+h1{
+    padding-top: 50px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family:'Times New Roman', Times, serif;
+    border-bottom: #ffd631;
+    border-radius: 20;
+    position: relative;
+}
+h1::after {
+    content: '';
+    position: absolute;
+    left: 50%; 
+    bottom: -12px;
+    width: 5%; 
+    transform: translateX(-50%); 
+    height: 2px; 
+    background-color: #ffd631; 
+}
+.photo{
+    width: 100px;
+}
