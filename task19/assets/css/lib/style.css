@@ -1,0 +1,44 @@
+.title {
+    color: rgb(0, 0, 146);
+}
+.mainTitle::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    width: 6%;
+    transform: translateX(-50%);
+    top: 105px;
+    height: 4px;
+    background-color: #003076;
+    border-radius: 5px
+}
+
+.mainTitle {
+    color: rgb(132, 0, 0);
+    margin-bottom: 30px;
+}
+
+.name {
+    color: gold;
+    ;
+}
+
+.country {
+    color: rgb(62, 187, 236);
+}
+
+.icon {
+    font-size: 26px;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 7px;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    top: -20px;
+    left: 80%;
+    text-align: center;
+    transition: 50%;
+    transform: rotate(45deg);
+    font-weight: bold;
+    color: rgb(2, 2, 96);
+}
