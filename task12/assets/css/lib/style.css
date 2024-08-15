@@ -1,0 +1,105 @@
+input {
+    height: 50px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border-color: rgb(200, 200, 200);
+}
+
+.left {
+    margin-right: 8%;
+}
+
+.left,
+.right {
+    width: 46%;
+}
+
+textarea {
+    height: 21rem;
+    border-radius: 5px;
+    border-color: rgb(200, 200, 200);
+
+}
+
+button {
+    background-color: red;
+    border-radius: 10px;
+    color: aliceblue;
+    height: 45px;
+    border-color: transparent;
+}
+
+.icon {
+    background-color: rgb(198, 199, 199);
+    text-align: center;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    padding-top: 8px;
+    color: rgba(236, 4, 4, 0.892);
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.socialIcon {
+    background-color: rgb(198, 199, 199);
+    text-align: center;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding-top: 8px;
+    color: rgb(255, 255, 255);
+    margin: 0 4px;
+}
+
+.title,
+.contact,
+.emails,
+.social {
+    display: flex;
+}
+
+.facebook {
+    background-color: blue;
+}
+
+.twiter {
+    background-color: rgb(0, 119, 255);
+}
+
+.insta {
+    background-color: rgb(215, 0, 90);
+}
+
+.dis {
+    background-color: blueviolet;
+}
+
+.location {
+    max-width: 170px;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+span {
+    color: red;
+}
+
+h5 {
+    color: rgb(170, 170, 171);
+    font-weight: 400;
+    position: relative;
+}
+
+h5::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -31px;
+    width: 7%;
+    transform: translateX(-50%);
+    height: 4px;
+    background-color: red;
+}
