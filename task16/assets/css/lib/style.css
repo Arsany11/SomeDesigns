@@ -1,0 +1,28 @@
+.icon{
+    color: black;
+    font-size: 65px;
+    padding-left: 25px;
+}
+p{
+    max-width: 250px;
+    font-size: 20px;
+}
+.option{
+    margin-bottom: 50px;
+}
+.fa-layer-group{
+    color: brown;
+}
+.fa-rocketchat{
+    color: green;
+}
+.fa-lock{
+    color: blueviolet;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.photo{
+    position: relative;
+}
