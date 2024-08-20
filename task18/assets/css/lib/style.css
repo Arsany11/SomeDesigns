@@ -1,0 +1,88 @@
+
+.row{
+    margin-top: 150px;
+}
+.logo{
+    display: flex;
+}
+.logo .icon{
+    color: brown;
+    font-size: 50px;
+    margin-right: 10px;
+    padding-bottom: 15px;
+}
+.logo .location{
+    padding-top: 15px;
+    position: relative;
+    color: #fff;
+    font-weight: bolder;
+}
+.title{
+color: #fff;
+font-weight: bolder;
+position: relative;
+margin-bottom: 50px;
+font-size: 30px;
+}
+.title::after {
+    content: '';
+    position: absolute;
+    /* left: 15%; */
+    width: 75px;
+    transform: translateX(-50%);
+    height: 4px;
+    background-color: brown;
+    top: 55px;
+    left: 45px;
+}
+body{
+    background-color: rgb(2, 0, 93);
+    color: rgb(208, 208, 208);
+}
+ul{
+    list-style: none;
+    position: relative;
+}
+li i{
+    padding-right: 8px;
+    color: brown;
+    position: absolute;
+    left: 5px;
+    padding-top: 5px;
+}
+
+
+button {
+    background-color: brown;
+    border-radius: 10px;
+    color: aliceblue;
+    border-color:transparent ;
+    height: 45px;
+    border-color: transparent;
+
+}
+input {
+    height: 50px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background-color: transparent;
+    padding-left: 15px;
+    border: solid 1px rgb(208, 208, 208);
+}
+.bottom{
+    border-top: solid 1px rgb(208, 208, 208);
+    padding-top: 25px;
+}
+.bottom h4{
+    font-size: 15px;
+}
+.bottom span{
+    color: brown;
+}
+.bottom i{
+    font-size: 25px;
+    margin-left: 5px;
+}
+.copy{
+    font-size: 20px;
+}
