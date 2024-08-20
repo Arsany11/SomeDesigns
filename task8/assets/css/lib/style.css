@@ -1,0 +1,65 @@
+.backPhoto{
+    background-image: url(../../images/portfolio-2.jpg);
+    background-size: cover;
+}
+body{
+        background-color: rgba(102, 4, 171, 0.8);
+
+}
+
+.mainContent{
+    display: flex;
+    z-index: 1;
+    background-color: rgba(113, 6, 189,0.8);
+    background-size: cover;
+    /* height: 100vh; */
+}
+.photo ,
+.content{
+    width: 50%;
+}
+.photo img{
+    width: 90%;
+    height: 110%;
+}
+.content{
+    margin-top: 130px;
+    color: aliceblue;
+}
+h1{
+    font-weight: bolder;
+    font-size: 70px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+h2{
+    margin-bottom: 10px;
+}
+.android ,
+.ios ,
+.icon ,
+.Google ,
+.AppStore
+{
+    display: inline-block;
+    /* display: flex; */
+}
+.availInAndroid{
+    font-size: 10px;
+    margin: 0%;
+}
+.android ,
+.ios{
+    border: solid 2px white;
+    border-radius: 15px;
+    padding: 5px 40px;
+    margin-bottom: 30px;
+    width: 250px;
+    margin-right: 15px;
+}
+.availInIos{
+    margin: 0%;
+}
+.icon{
+    font-size: 40px;
+}
